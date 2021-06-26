@@ -1,5 +1,5 @@
 # zERG
-Repository for zERG, a Matlab based zebrafish ECG analysis program, and code & data associated with Duong et. al (202X).
+Repository for zERG, a Matlab based zebrafish ECG analysis program
 
 # Description
 zERG (Zebrafish ECG Reading GUI) is a Matlab-based Graphic-User Interface (GUI) that allows for the analysis of electrocardiogram (ECG) traces collected from zebrafish. Standard ECG analysis software is limited in terms of analyzing traces where the P wave exceeds the R wave due to incorrect wave assignment. zERG circumvents this and is easily able to identify the ECG waves in such cases to produce the correct average ECG trace, from which standard ECG measurements such as heart rate, intervals, and wave amplitudes can be calculated. All results are then exported in a .txt file for downstream analyses.
