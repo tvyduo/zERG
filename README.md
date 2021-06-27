@@ -28,7 +28,7 @@ The manuscript associated with this work is currently in review. A proper citati
 Duong T et al. Development and Optimization of an In Vivo Electrocardiogram Recording Method and Analysis Program for Adult Zebrafish. Manuscript submitted for publication.
 
 # Zebrafish ECG Traces Database
-Data and code supporting the manuscript can be found at a seperate repository: https://github.com/tvyduo/zECG_base
+ECG data supporting the manuscript can be found at a separate repository: https://github.com/tvyduo/zECG_base
 
 # Contact
 Please contact ThuyVy Duong at tvyduo@gmail.com for questions and/or assistance. Feedback and suggestions for additional features are welcomed!
