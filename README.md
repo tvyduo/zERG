@@ -10,6 +10,7 @@ Please read the changelog under the releases detailing changes made between each
 
 v1.0 Initial release <br>
 v1.1 Updates to peak identification functions, improved noise-remover, corrected amplitude calculation <br>
+v1.2 Improved noise-remover, added save/load save state feature, add compatibility with different sampling rates, fixed average trace window issues <br>
 
 # How to Run
 To run zERG, users need to download both `zERG.m` and `zERG.fig` and place both files within the same folder. Traces do not need to be in the same file as the `.m` and `.fig` files; zERG will automatically ask for the location of the traces to be analyzed.
