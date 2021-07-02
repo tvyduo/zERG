@@ -3,7 +3,7 @@ Initial release of zERG, including the .m and .fig files, and the accompanying u
 
 **Please note that amplitude calculations are incorrect in this version. v1.1 contains updated functions.**
 
-Code Created on: 09/09/2020
+Code Created on: 09/09/2020<br>
 Manual Created on: 12/03/2020
 
 ## v1.1
@@ -18,7 +18,7 @@ zERG Change Log
   * Automatic saving of plots after clicking 'Analyze ECGs'
 * Updates
   * Y-axis multiplier function to improve manual peak placement in 'Find Peaks'
-  * Easier loading of .m file from current directory
+  * Easier loading of `.m` file from current directory
   * Improvements to noise-remover for more accurate peak identification
   * Improvements to minima finder for more accurate and faster minima identification
   * Removed 'Save Plots' button
@@ -40,7 +40,7 @@ Manual Change Log
 * Removed writer notes in section about average trace
 * Fixed typos
 
-Code Updated on: 12/03/2020
+Code Updated on: 12/03/2020<br>
 Manual Updated on: 06/23/2021
 
 ## v1.2
@@ -48,11 +48,12 @@ Manual Updated on: 06/23/2021
 zERG Change Log
 * New features
   * Added checks to ensure that the autoplaced P and T wave markers are not out of bounds within the Average Trace plot
-  * Added a save/load system to save trace analysis progress into a .mat file, which can then be loaded back into zERG
+  * Added a save/load system to save trace analysis progress into a `.mat` file, which can then be loaded back into zERG
   * Compatibility with different sample rates
-  * Added feature to convert .txt files into .mat format
+  * Added feature to convert `.txt` files into `.mat` format
 * Updates
-  * Previous markers added to the average traec were still in the background after "Add Markers" was selected again; the previous markers are now removed
+  * Previous markers added to the average trace were still in the background after 'Add Markers' was selected again; the previous markers are now removed
+  * Improved the peak noise-remover to more efficiently select peaks automatically
 * Bugs fixed
   * Typos in noise-remover pop-up prompts
 * Code organization
