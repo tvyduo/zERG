@@ -42,3 +42,28 @@ Manual Change Log
 
 Code Updated on: 12/03/2020
 Manual Updated on: 06/23/2021
+
+## v1.2
+
+zERG Change Log
+* New features
+  * Added checks to ensure that the autoplaced P and T wave markers are not out of bounds within the Average Trace plot
+  * Added a save/load system to save trace analysis progress into a .mat file, which can then be loaded back into zERG
+  * Compatibility with different sample rates
+  * Added feature to convert .txt files into .mat format
+* Updates
+  * Previous markers added to the average traec were still in the background after "Add Markers" was selected again; the previous markers are now removed
+* Bugs fixed
+  * Typos in noise-remover pop-up prompts
+* Code organization
+  * Completely removed functions currently not active within version 1.2
+  * Cleaned up code and comments to be more user-friendly
+
+Manual Change Log
+* Added sections explaining zooming window, noise remover (both peak and minima), minima alignment, troubleshooting guide, save and load functions, glossary
+* Fixed typos
+* Added hyperlinks within the document
+* Change layout for more user-friendly view
+
+Code Updated on: 06/29/2021
+Manual Updated on: 07/01/2021
