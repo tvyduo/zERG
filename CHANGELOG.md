@@ -66,5 +66,5 @@ Manual Change Log
 * Added hyperlinks within the document
 * Change layout for more user-friendly view
 
-Code Updated on: 06/29/2021
+Code Updated on: 06/29/2021<br>
 Manual Updated on: 07/01/2021
