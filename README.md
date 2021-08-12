@@ -24,9 +24,7 @@ Three `.mat` files within the *Examples* directory has been provided. `.txt` fil
 A user guide is provided to assist users on how to use zERG. The guide is included as part of the releases but can also be found with the *Manuals* directory.
 
 # Citation
-The manuscript associated with this work is currently in review. A proper citation will be provided at a later time. Please cite if you use zERG!
-
-Duong T et al. Development and Optimization of an In Vivo Electrocardiogram Recording Method and Analysis Program for Adult Zebrafish. Manuscript submitted for publication.
+ThuyVy Duong, Rebecca Rose, Adriana Blazeski, Noah Fine, Courtney E. Woods, Joseph F. Thole, Nona Sotoodehnia, Elsayed Z. Soliman, Leslie Tung, Andrew S. McCallion, Dan E. Arking; Development and optimization of an in vivo electrocardiogram recording method and analysis program for adult zebrafish. Dis Model Mech 1 August 2021; 14 (8): dmm048827. doi: https://doi.org/10.1242/dmm.048827
 
 # Zebrafish ECG Traces Database
 ECG data supporting the manuscript can be found at a separate repository: https://github.com/tvyduo/zECG_base
