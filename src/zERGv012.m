@@ -4,38 +4,38 @@
 
 %% Initialization Code - DO NOT EDIT
 
-function varargout = zECGv012(varargin)
-% zECGv012 MATLAB code for zECGv012.fig
-%      zECGv012, by itself, creates a new zECGv012 or raises the existing
+function varargout = zERGv012(varargin)
+% zERGv012 MATLAB code for zERGv012.fig
+%      zERGv012, by itself, creates a new zERGv012 or raises the existing
 %      singleton*.
 %
-%      H = zECGv012 returns the handle to a new zECGv012 or the handle to
+%      H = zERGv012 returns the handle to a new zERGv012 or the handle to
 %      the existing singleton*.
 %
-%      zECGv012('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in zECGv012.M with the given input arguments.
+%      zERGv012('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in zERGv012.M with the given input arguments.
 %
-%      zECGv012('Property','Value',...) creates a new zECGv012 or raises 
+%      zERGv012('Property','Value',...) creates a new zERGv012 or raises 
 %      the existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before zECGv012_OpeningFcn gets called.  An
+%      applied to the GUI before zERGv012_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to zECGv012_OpeningFcn via varargin.
+%      stop.  All inputs are passed to zERGv012_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help zECGv012
+% Edit the above text to modify the response to help zERGv012
 
-% Last Modified by GUIDE v2.5 02-Jul-2021 00:49:14
+% Last Modified by GUIDE v2.5 09-Nov-2021 13:23:56
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
     'gui_Singleton',  gui_Singleton, ...
-    'gui_OpeningFcn', @zECGv012_OpeningFcn, ...
-    'gui_OutputFcn',  @zECGv012_OutputFcn, ...
+    'gui_OpeningFcn', @zERGv012_OpeningFcn, ...
+    'gui_OutputFcn',  @zERGv012_OutputFcn, ...
     'gui_LayoutFcn',  [] , ...
     'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -53,13 +53,13 @@ end
 
 %% Opening Functions
 
-% --- Executes just before zECGv012 is made visible.
-function zECGv012_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before zERGv012 is made visible.
+function zERGv012_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to zECGv012 (see VARARGIN)
+% varargin   command line arguments to zERGv012 (see VARARGIN)
 
 % Reads in traces from a selected folder, then plots the first trace within
 % that folder; plot within 'Full Recording' will change once new trace is
@@ -178,7 +178,7 @@ if (datastart(ch,bl) ~= -1)
     
 end
 
-% Choose default command line output for zECGv012
+% Choose default command line output for zERGv012
 handles.output = hObject;
 
 % Update handles structure
@@ -197,11 +197,11 @@ assignin('base','selectedMinima',[]);
 set(handles.SelectPeakButton,'UserData',[]);
 set(handles.BoxPeaksButton,'UserData',[]);
 
-% UIWAIT makes zECGv012 wait for user response (see UIRESUME)
+% UIWAIT makes zERGv012 wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 % --- Outputs from this function are returned to the command line.
-function varargout = zECGv012_OutputFcn(hObject, eventdata, handles)
+function varargout = zERGv012_OutputFcn(hObject, eventdata, handles)
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
